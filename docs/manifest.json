@@ -1,0 +1,174 @@
+{
+  "source_base_path": "E:/Home/Important/Development/Projects/Scripts Metatogger/scripts-doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.Data.AudioFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.Data.AudioFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger.Data.AudioFile",
+      "Summary": "<p sourcefile=\"api/Metatogger.Data.AudioFile.yml\" sourcestartlinenumber=\"1\">Represents an audio file and provides methods and properties to manage its metadata, tags, and file operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.Data.ExtendedMetadataName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.Data.ExtendedMetadataName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger.Data.ExtendedMetadataName",
+      "Summary": "<p sourcefile=\"api/Metatogger.Data.ExtendedMetadataName.yml\" sourcestartlinenumber=\"1\">Provides constant names for extended metadata fields used in audio files,\nsuch as technical informations and file properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.Data.TagName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.Data.TagName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger.Data.TagName",
+      "Summary": "<p sourcefile=\"api/Metatogger.Data.TagName.yml\" sourcestartlinenumber=\"1\">Provides constants for standard and extended tag names used in audio metadata, as well as helper methods for tag display and description.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.FileProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.FileProcess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger.FileProcess",
+      "Summary": "<p sourcefile=\"api/Metatogger.FileProcess.yml\" sourcestartlinenumber=\"1\">Specifies the type of file operation to perform on an audio file,\nsuch as copying, moving, renaming, or creating a symbolic link.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metatogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metatogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metatogger",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tuto/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "tuto/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tuto/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "tuto/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tuto/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tuto/toc.html"
+        },
+        ".json": {
+          "relative_path": "tuto/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

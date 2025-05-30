@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AudioFile | Metatogger API </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AudioFile | Metatogger API ">
+      
+      <meta name="description" content="Represents an audio file and provides methods and properties to manage its metadata, tags, and file operations.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Metatogger">
+            Metatogger
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Metatogger.Data.AudioFile">
+
+
+
+  <h1 id="Metatogger_Data_AudioFile" data-uid="Metatogger.Data.AudioFile" class="text-break">
+Class AudioFile  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Metatogger.html">Metatogger</a>.<a class="xref" href="Metatogger.Data.html">Data</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Metatogger.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents an audio file and provides methods and properties to manage its metadata, tags, and file operations.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AudioFile : DependencyObject</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AudioFile</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Metatogger_Data_AudioFile_Bitrate_" data-uid="Metatogger.Data.AudioFile.Bitrate*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Bitrate" data-uid="Metatogger.Data.AudioFile.Bitrate">
+  Bitrate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the bitrate as a formatted string, in kbps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Bitrate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_BitsPerSample_" data-uid="Metatogger.Data.AudioFile.BitsPerSample*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_BitsPerSample" data-uid="Metatogger.Data.AudioFile.BitsPerSample">
+  BitsPerSample
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the bits per sample as a formatted string, in bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BitsPerSample { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_BitsSample_" data-uid="Metatogger.Data.AudioFile.BitsSample*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_BitsSample" data-uid="Metatogger.Data.AudioFile.BitsSample">
+  BitsSample
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of bits per sample.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BitsSample { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_ChannelMode_" data-uid="Metatogger.Data.AudioFile.ChannelMode*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_ChannelMode" data-uid="Metatogger.Data.AudioFile.ChannelMode">
+  ChannelMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the channel mode as a string (e.g., &quot;Mono&quot;, &quot;Stereo&quot;).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ChannelMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_Channels_" data-uid="Metatogger.Data.AudioFile.Channels*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Channels" data-uid="Metatogger.Data.AudioFile.Channels">
+  Channels
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of audio channels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Channels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_Codec_" data-uid="Metatogger.Data.AudioFile.Codec*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Codec" data-uid="Metatogger.Data.AudioFile.Codec">
+  Codec
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the codec name of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Codec { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_CodecVersion_" data-uid="Metatogger.Data.AudioFile.CodecVersion*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_CodecVersion" data-uid="Metatogger.Data.AudioFile.CodecVersion">
+  CodecVersion
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the codec version of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CodecVersion { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_Cover_" data-uid="Metatogger.Data.AudioFile.Cover*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Cover" data-uid="Metatogger.Data.AudioFile.Cover">
+  Cover
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the temporary path to the embedded cover art file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Cover { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_CoverDescription_" data-uid="Metatogger.Data.AudioFile.CoverDescription*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_CoverDescription" data-uid="Metatogger.Data.AudioFile.CoverDescription">
+  CoverDescription
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the description of the embedded cover art.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CoverDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_Duration_" data-uid="Metatogger.Data.AudioFile.Duration*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Duration" data-uid="Metatogger.Data.AudioFile.Duration">
+  Duration
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the formatted duration string of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Duration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_ExternalCover_" data-uid="Metatogger.Data.AudioFile.ExternalCover*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_ExternalCover" data-uid="Metatogger.Data.AudioFile.ExternalCover">
+  ExternalCover
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the path to the external cover art file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ExternalCover { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_ExternalCoverDescription_" data-uid="Metatogger.Data.AudioFile.ExternalCoverDescription*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_ExternalCoverDescription" data-uid="Metatogger.Data.AudioFile.ExternalCoverDescription">
+  ExternalCoverDescription
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the description of the external cover art.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ExternalCoverDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_FileProcess_" data-uid="Metatogger.Data.AudioFile.FileProcess*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_FileProcess" data-uid="Metatogger.Data.AudioFile.FileProcess">
+  FileProcess
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the file process operation to be performed on the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileProcess FileProcess { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Metatogger.FileProcess.html">FileProcess</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_FullPath_" data-uid="Metatogger.Data.AudioFile.FullPath*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_FullPath" data-uid="Metatogger.Data.AudioFile.FullPath">
+  FullPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the full path of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FullPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasChanges_" data-uid="Metatogger.Data.AudioFile.HasChanges*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasChanges" data-uid="Metatogger.Data.AudioFile.HasChanges">
+  HasChanges
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the audio file has any changes (tags or path).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChanges { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasCoverChanged_" data-uid="Metatogger.Data.AudioFile.HasCoverChanged*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasCoverChanged" data-uid="Metatogger.Data.AudioFile.HasCoverChanged">
+  HasCoverChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the embedded cover art has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCoverChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasCoverError_" data-uid="Metatogger.Data.AudioFile.HasCoverError*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasCoverError" data-uid="Metatogger.Data.AudioFile.HasCoverError">
+  HasCoverError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether there is an error with the embedded cover art.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCoverError { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasCoverSupport_" data-uid="Metatogger.Data.AudioFile.HasCoverSupport*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasCoverSupport" data-uid="Metatogger.Data.AudioFile.HasCoverSupport">
+  HasCoverSupport
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the audio file supports embedded cover art.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCoverSupport { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasExternalCoverError_" data-uid="Metatogger.Data.AudioFile.HasExternalCoverError*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasExternalCoverError" data-uid="Metatogger.Data.AudioFile.HasExternalCoverError">
+  HasExternalCoverError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether there is an error with the external cover art.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasExternalCoverError { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasOutputFilenameChanged_" data-uid="Metatogger.Data.AudioFile.HasOutputFilenameChanged*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasOutputFilenameChanged" data-uid="Metatogger.Data.AudioFile.HasOutputFilenameChanged">
+  HasOutputFilenameChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the output filename has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOutputFilenameChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasOutputPathChanged_" data-uid="Metatogger.Data.AudioFile.HasOutputPathChanged*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasOutputPathChanged" data-uid="Metatogger.Data.AudioFile.HasOutputPathChanged">
+  HasOutputPathChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the output path has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOutputPathChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasPathChanges_" data-uid="Metatogger.Data.AudioFile.HasPathChanges*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasPathChanges" data-uid="Metatogger.Data.AudioFile.HasPathChanges">
+  HasPathChanges
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the path (output path or filename) has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPathChanges { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasPathError_" data-uid="Metatogger.Data.AudioFile.HasPathError*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasPathError" data-uid="Metatogger.Data.AudioFile.HasPathError">
+  HasPathError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether there is an error with the output path.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPathError { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasTagChanges_" data-uid="Metatogger.Data.AudioFile.HasTagChanges*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasTagChanges" data-uid="Metatogger.Data.AudioFile.HasTagChanges">
+  HasTagChanges
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether any tag has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasTagChanges { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_InputFilename_" data-uid="Metatogger.Data.AudioFile.InputFilename*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_InputFilename" data-uid="Metatogger.Data.AudioFile.InputFilename">
+  InputFilename
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the input filename of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string InputFilename { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_InputPath_" data-uid="Metatogger.Data.AudioFile.InputPath*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_InputPath" data-uid="Metatogger.Data.AudioFile.InputPath">
+  InputPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the input path of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string InputPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_IsEnabled_" data-uid="Metatogger.Data.AudioFile.IsEnabled*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_IsEnabled" data-uid="Metatogger.Data.AudioFile.IsEnabled">
+  IsEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the audio file is enabled for modification in the Metatogger workspace.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_NominalBitrate_" data-uid="Metatogger.Data.AudioFile.NominalBitrate*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_NominalBitrate" data-uid="Metatogger.Data.AudioFile.NominalBitrate">
+  NominalBitrate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the nominal bitrate of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NominalBitrate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_OutputFilename_" data-uid="Metatogger.Data.AudioFile.OutputFilename*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_OutputFilename" data-uid="Metatogger.Data.AudioFile.OutputFilename">
+  OutputFilename
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the output filename for the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OutputFilename { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_OutputPath_" data-uid="Metatogger.Data.AudioFile.OutputPath*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_OutputPath" data-uid="Metatogger.Data.AudioFile.OutputPath">
+  OutputPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the output path for the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string OutputPath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_PathError_" data-uid="Metatogger.Data.AudioFile.PathError*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_PathError" data-uid="Metatogger.Data.AudioFile.PathError">
+  PathError
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the error message if the output path is invalid, or null if there is no error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? PathError { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_SampleRate_" data-uid="Metatogger.Data.AudioFile.SampleRate*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_SampleRate" data-uid="Metatogger.Data.AudioFile.SampleRate">
+  SampleRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the sample rate as a formatted string, in Hertz.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SampleRate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_Seconds_" data-uid="Metatogger.Data.AudioFile.Seconds*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_Seconds" data-uid="Metatogger.Data.AudioFile.Seconds">
+  Seconds
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the duration of the audio file in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Seconds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_SimilarityGroupId_" data-uid="Metatogger.Data.AudioFile.SimilarityGroupId*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_SimilarityGroupId" data-uid="Metatogger.Data.AudioFile.SimilarityGroupId">
+  SimilarityGroupId
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the similarity group ID for the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SimilarityGroupId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Metatogger_Data_AudioFile_GetAllFirstTagsWithExtendedMetadata_" data-uid="Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_GetAllFirstTagsWithExtendedMetadata" data-uid="Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata">
+  GetAllFirstTagsWithExtendedMetadata()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all first tag values with extended metadata (technical informations and file properties) as a dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; GetAllFirstTagsWithExtendedMetadata()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A dictionary of tag names and their first value or extended metadata.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_GetAllTags_" data-uid="Metatogger.Data.AudioFile.GetAllTags*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_GetAllTags" data-uid="Metatogger.Data.AudioFile.GetAllTags">
+  GetAllTags()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all tags and their values as a dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, List&lt;string&gt;&gt; GetAllTags()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dd><p>A dictionary of tag names and their list of values.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_GetFirstValue_" data-uid="Metatogger.Data.AudioFile.GetFirstValue*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_GetFirstValue_System_String_" data-uid="Metatogger.Data.AudioFile.GetFirstValue(System.String)">
+  GetFirstValue(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the first value of the specified tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetFirstValue(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The first value of the tag, or null if not available.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_GetPreviousTagValue_" data-uid="Metatogger.Data.AudioFile.GetPreviousTagValue*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_GetPreviousTagValue_System_String_" data-uid="Metatogger.Data.AudioFile.GetPreviousTagValue(System.String)">
+  GetPreviousTagValue(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the previous value of the specified tag before changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? GetPreviousTagValue(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The previous value of the tag, or null if the tag has not changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_GetValues_" data-uid="Metatogger.Data.AudioFile.GetValues*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_GetValues_System_String_" data-uid="Metatogger.Data.AudioFile.GetValues(System.String)">
+  GetValues(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the values of the specified tag as a list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt;? GetValues(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A list of values for the tag, or null if not available.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_HasChange_" data-uid="Metatogger.Data.AudioFile.HasChange*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_HasChange_System_String_" data-uid="Metatogger.Data.AudioFile.HasChange(System.String)">
+  HasChange(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified tag has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasChange(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the tag has changed; otherwise, false.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_RejectChange_" data-uid="Metatogger.Data.AudioFile.RejectChange*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_RejectChange_System_String_" data-uid="Metatogger.Data.AudioFile.RejectChange(System.String)">
+  RejectChange(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rejects the change for the specified tag, reverting it to its previous value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RejectChange(string tag)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_RejectChanges_" data-uid="Metatogger.Data.AudioFile.RejectChanges*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_RejectChanges" data-uid="Metatogger.Data.AudioFile.RejectChanges">
+  RejectChanges()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rejects all changes made to the audio file, reverting to the original state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RejectChanges()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_SaveChangesAsync_" data-uid="Metatogger.Data.AudioFile.SaveChangesAsync*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_SaveChangesAsync" data-uid="Metatogger.Data.AudioFile.SaveChangesAsync">
+  SaveChangesAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Asynchronously saves all changes made to the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SaveChangesAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>A task representing the asynchronous operation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_SetTag_" data-uid="Metatogger.Data.AudioFile.SetTag*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_SetTag_System_String_System_String_System_Boolean_System_Boolean_" data-uid="Metatogger.Data.AudioFile.SetTag(System.String,System.String,System.Boolean,System.Boolean)">
+  SetTag(string, string?, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the value of a tag, with options to overwrite or add if it exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SetTag(string tag, string? value, bool overwrite = true, bool addIfExists = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The value to set.</p>
+</dd>
+    <dt><code>overwrite</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to overwrite the existing value.</p>
+</dd>
+    <dt><code>addIfExists</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to add the value if it already exists.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The normalized tag name, or null if not changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_SetTagValue_" data-uid="Metatogger.Data.AudioFile.SetTagValue*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_SetTagValue_System_String_System_String_System_String_" data-uid="Metatogger.Data.AudioFile.SetTagValue(System.String,System.String,System.String)">
+  SetTagValue(string, string, string?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the value of a tag, replacing an old value with a new value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SetTagValue(string name, string oldValue, string? newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The tag name.</p>
+</dd>
+    <dt><code>oldValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The old value to replace.</p>
+</dd>
+    <dt><code>newValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The new value to set.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The normalized tag name, or null if not changed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Metatogger_Data_AudioFile_ToString_" data-uid="Metatogger.Data.AudioFile.ToString*"></a>
+
+  <h3 id="Metatogger_Data_AudioFile_ToString" data-uid="Metatogger.Data.AudioFile.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the full path of the audio file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The full path as a string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

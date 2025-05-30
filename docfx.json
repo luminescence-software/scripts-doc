@@ -1,0 +1,48 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../Metatogger/Sources/Metatogger/bin/Debug",
+          "files": [
+            "**/Metatogger.dll"
+          ]
+        }
+      ],
+		"dest": "api",
+		"filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "docs/**",
+			 "filterConfig.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "docs",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Metatogger",
+      "_appTitle": "Metatogger API",
+      "_enableSearch": false,
+      "pdf": false
+    }
+  }
+}

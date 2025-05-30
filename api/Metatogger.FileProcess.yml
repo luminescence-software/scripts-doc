@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Metatogger.FileProcess
+  commentId: T:Metatogger.FileProcess
+  id: FileProcess
+  parent: Metatogger
+  children:
+  - Metatogger.FileProcess.Copy
+  - Metatogger.FileProcess.Move
+  - Metatogger.FileProcess.MoveDeleteEmptyFolder
+  - Metatogger.FileProcess.Rename
+  - Metatogger.FileProcess.SoftLink
+  langs:
+  - csharp
+  - vb
+  name: FileProcess
+  nameWithType: FileProcess
+  fullName: Metatogger.FileProcess
+  type: Enum
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: >-
+    Specifies the type of file operation to perform on an audio file,
+
+    such as copying, moving, renaming, or creating a symbolic link.
+  example: []
+  syntax:
+    content: public enum FileProcess
+    content.vb: Public Enum FileProcess
+- uid: Metatogger.FileProcess.Copy
+  commentId: F:Metatogger.FileProcess.Copy
+  id: Copy
+  parent: Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: Copy
+  nameWithType: FileProcess.Copy
+  fullName: Metatogger.FileProcess.Copy
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: Copy the file to a new location.
+  example: []
+  syntax:
+    content: Copy = 0
+    return:
+      type: Metatogger.FileProcess
+- uid: Metatogger.FileProcess.Move
+  commentId: F:Metatogger.FileProcess.Move
+  id: Move
+  parent: Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: FileProcess.Move
+  fullName: Metatogger.FileProcess.Move
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: Move the file to a new location.
+  example: []
+  syntax:
+    content: Move = 1
+    return:
+      type: Metatogger.FileProcess
+- uid: Metatogger.FileProcess.SoftLink
+  commentId: F:Metatogger.FileProcess.SoftLink
+  id: SoftLink
+  parent: Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: SoftLink
+  nameWithType: FileProcess.SoftLink
+  fullName: Metatogger.FileProcess.SoftLink
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: Create a symbolic link to the file.
+  example: []
+  syntax:
+    content: SoftLink = 2
+    return:
+      type: Metatogger.FileProcess
+- uid: Metatogger.FileProcess.Rename
+  commentId: F:Metatogger.FileProcess.Rename
+  id: Rename
+  parent: Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: Rename
+  nameWithType: FileProcess.Rename
+  fullName: Metatogger.FileProcess.Rename
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: Rename the file in its current location.
+  example: []
+  syntax:
+    content: Rename = 3
+    return:
+      type: Metatogger.FileProcess
+- uid: Metatogger.FileProcess.MoveDeleteEmptyFolder
+  commentId: F:Metatogger.FileProcess.MoveDeleteEmptyFolder
+  id: MoveDeleteEmptyFolder
+  parent: Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: MoveDeleteEmptyFolder
+  nameWithType: FileProcess.MoveDeleteEmptyFolder
+  fullName: Metatogger.FileProcess.MoveDeleteEmptyFolder
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger
+  summary: Move the file and delete the source folder if it becomes empty.
+  example: []
+  syntax:
+    content: MoveDeleteEmptyFolder = 4
+    return:
+      type: Metatogger.FileProcess
+references:
+- uid: Metatogger
+  commentId: N:Metatogger
+  isExternal: true
+  href: Metatogger.html
+  name: Metatogger
+  nameWithType: Metatogger
+  fullName: Metatogger
+- uid: Metatogger.FileProcess
+  commentId: T:Metatogger.FileProcess
+  parent: Metatogger
+  isExternal: true
+  href: Metatogger.FileProcess.html
+  name: FileProcess
+  nameWithType: FileProcess
+  fullName: Metatogger.FileProcess

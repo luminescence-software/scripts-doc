@@ -1,0 +1,1900 @@
+### YamlMime:ManagedReference
+items:
+- uid: Metatogger.Data.AudioFile
+  commentId: T:Metatogger.Data.AudioFile
+  id: AudioFile
+  parent: Metatogger.Data
+  children:
+  - Metatogger.Data.AudioFile.Bitrate
+  - Metatogger.Data.AudioFile.BitsPerSample
+  - Metatogger.Data.AudioFile.BitsSample
+  - Metatogger.Data.AudioFile.ChannelMode
+  - Metatogger.Data.AudioFile.Channels
+  - Metatogger.Data.AudioFile.Codec
+  - Metatogger.Data.AudioFile.CodecVersion
+  - Metatogger.Data.AudioFile.Cover
+  - Metatogger.Data.AudioFile.CoverDescription
+  - Metatogger.Data.AudioFile.Duration
+  - Metatogger.Data.AudioFile.ExternalCover
+  - Metatogger.Data.AudioFile.ExternalCoverDescription
+  - Metatogger.Data.AudioFile.FileProcess
+  - Metatogger.Data.AudioFile.FullPath
+  - Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata
+  - Metatogger.Data.AudioFile.GetAllTags
+  - Metatogger.Data.AudioFile.GetFirstValue(System.String)
+  - Metatogger.Data.AudioFile.GetPreviousTagValue(System.String)
+  - Metatogger.Data.AudioFile.GetValues(System.String)
+  - Metatogger.Data.AudioFile.HasChange(System.String)
+  - Metatogger.Data.AudioFile.HasChanges
+  - Metatogger.Data.AudioFile.HasCoverChanged
+  - Metatogger.Data.AudioFile.HasCoverError
+  - Metatogger.Data.AudioFile.HasCoverSupport
+  - Metatogger.Data.AudioFile.HasExternalCoverError
+  - Metatogger.Data.AudioFile.HasOutputFilenameChanged
+  - Metatogger.Data.AudioFile.HasOutputPathChanged
+  - Metatogger.Data.AudioFile.HasPathChanges
+  - Metatogger.Data.AudioFile.HasPathError
+  - Metatogger.Data.AudioFile.HasTagChanges
+  - Metatogger.Data.AudioFile.InputFilename
+  - Metatogger.Data.AudioFile.InputPath
+  - Metatogger.Data.AudioFile.IsEnabled
+  - Metatogger.Data.AudioFile.NominalBitrate
+  - Metatogger.Data.AudioFile.OutputFilename
+  - Metatogger.Data.AudioFile.OutputPath
+  - Metatogger.Data.AudioFile.PathError
+  - Metatogger.Data.AudioFile.RejectChange(System.String)
+  - Metatogger.Data.AudioFile.RejectChanges
+  - Metatogger.Data.AudioFile.SampleRate
+  - Metatogger.Data.AudioFile.SaveChangesAsync
+  - Metatogger.Data.AudioFile.Seconds
+  - Metatogger.Data.AudioFile.SetTag(System.String,System.String,System.Boolean,System.Boolean)
+  - Metatogger.Data.AudioFile.SetTagValue(System.String,System.String,System.String)
+  - Metatogger.Data.AudioFile.SimilarityGroupId
+  - Metatogger.Data.AudioFile.ToString
+  langs:
+  - csharp
+  - vb
+  name: AudioFile
+  nameWithType: AudioFile
+  fullName: Metatogger.Data.AudioFile
+  type: Class
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Represents an audio file and provides methods and properties to manage its metadata, tags, and file operations.
+  example: []
+  syntax:
+    content: 'public class AudioFile : DependencyObject'
+    content.vb: Public Class AudioFile Inherits DependencyObject
+  inheritance:
+  - System.Object
+- uid: Metatogger.Data.AudioFile.HasChange(System.String)
+  commentId: M:Metatogger.Data.AudioFile.HasChange(System.String)
+  id: HasChange(System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasChange(string)
+  nameWithType: AudioFile.HasChange(string)
+  fullName: Metatogger.Data.AudioFile.HasChange(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Determines whether the specified tag has changed.
+  example: []
+  syntax:
+    content: public bool HasChange(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.Boolean
+      description: True if the tag has changed; otherwise, false.
+    content.vb: Public Function HasChange(tag As String) As Boolean
+  overload: Metatogger.Data.AudioFile.HasChange*
+  nameWithType.vb: AudioFile.HasChange(String)
+  fullName.vb: Metatogger.Data.AudioFile.HasChange(String)
+  name.vb: HasChange(String)
+- uid: Metatogger.Data.AudioFile.GetPreviousTagValue(System.String)
+  commentId: M:Metatogger.Data.AudioFile.GetPreviousTagValue(System.String)
+  id: GetPreviousTagValue(System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: GetPreviousTagValue(string)
+  nameWithType: AudioFile.GetPreviousTagValue(string)
+  fullName: Metatogger.Data.AudioFile.GetPreviousTagValue(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the previous value of the specified tag before changes.
+  example: []
+  syntax:
+    content: public string? GetPreviousTagValue(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.String
+      description: The previous value of the tag, or null if the tag has not changed.
+    content.vb: Public Function GetPreviousTagValue(tag As String) As String
+  overload: Metatogger.Data.AudioFile.GetPreviousTagValue*
+  nameWithType.vb: AudioFile.GetPreviousTagValue(String)
+  fullName.vb: Metatogger.Data.AudioFile.GetPreviousTagValue(String)
+  name.vb: GetPreviousTagValue(String)
+- uid: Metatogger.Data.AudioFile.RejectChange(System.String)
+  commentId: M:Metatogger.Data.AudioFile.RejectChange(System.String)
+  id: RejectChange(System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: RejectChange(string)
+  nameWithType: AudioFile.RejectChange(string)
+  fullName: Metatogger.Data.AudioFile.RejectChange(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Rejects the change for the specified tag, reverting it to its previous value.
+  example: []
+  syntax:
+    content: public void RejectChange(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    content.vb: Public Sub RejectChange(tag As String)
+  overload: Metatogger.Data.AudioFile.RejectChange*
+  nameWithType.vb: AudioFile.RejectChange(String)
+  fullName.vb: Metatogger.Data.AudioFile.RejectChange(String)
+  name.vb: RejectChange(String)
+- uid: Metatogger.Data.AudioFile.RejectChanges
+  commentId: M:Metatogger.Data.AudioFile.RejectChanges
+  id: RejectChanges
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: RejectChanges()
+  nameWithType: AudioFile.RejectChanges()
+  fullName: Metatogger.Data.AudioFile.RejectChanges()
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Rejects all changes made to the audio file, reverting to the original state.
+  example: []
+  syntax:
+    content: public void RejectChanges()
+    content.vb: Public Sub RejectChanges()
+  overload: Metatogger.Data.AudioFile.RejectChanges*
+- uid: Metatogger.Data.AudioFile.SaveChangesAsync
+  commentId: M:Metatogger.Data.AudioFile.SaveChangesAsync
+  id: SaveChangesAsync
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: SaveChangesAsync()
+  nameWithType: AudioFile.SaveChangesAsync()
+  fullName: Metatogger.Data.AudioFile.SaveChangesAsync()
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Asynchronously saves all changes made to the audio file.
+  example: []
+  syntax:
+    content: public Task SaveChangesAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: A task representing the asynchronous operation.
+    content.vb: Public Function SaveChangesAsync() As Task
+  overload: Metatogger.Data.AudioFile.SaveChangesAsync*
+- uid: Metatogger.Data.AudioFile.SetTagValue(System.String,System.String,System.String)
+  commentId: M:Metatogger.Data.AudioFile.SetTagValue(System.String,System.String,System.String)
+  id: SetTagValue(System.String,System.String,System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: SetTagValue(string, string, string?)
+  nameWithType: AudioFile.SetTagValue(string, string, string?)
+  fullName: Metatogger.Data.AudioFile.SetTagValue(string, string, string?)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Sets the value of a tag, replacing an old value with a new value.
+  example: []
+  syntax:
+    content: public string? SetTagValue(string name, string oldValue, string? newValue)
+    parameters:
+    - id: name
+      type: System.String
+      description: The tag name.
+    - id: oldValue
+      type: System.String
+      description: The old value to replace.
+    - id: newValue
+      type: System.String
+      description: The new value to set.
+    return:
+      type: System.String
+      description: The normalized tag name, or null if not changed.
+    content.vb: Public Function SetTagValue(name As String, oldValue As String, newValue As String) As String
+  overload: Metatogger.Data.AudioFile.SetTagValue*
+  nameWithType.vb: AudioFile.SetTagValue(String, String, String)
+  fullName.vb: Metatogger.Data.AudioFile.SetTagValue(String, String, String)
+  name.vb: SetTagValue(String, String, String)
+- uid: Metatogger.Data.AudioFile.SetTag(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:Metatogger.Data.AudioFile.SetTag(System.String,System.String,System.Boolean,System.Boolean)
+  id: SetTag(System.String,System.String,System.Boolean,System.Boolean)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: SetTag(string, string?, bool, bool)
+  nameWithType: AudioFile.SetTag(string, string?, bool, bool)
+  fullName: Metatogger.Data.AudioFile.SetTag(string, string?, bool, bool)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Sets the value of a tag, with options to overwrite or add if it exists.
+  example: []
+  syntax:
+    content: public string? SetTag(string tag, string? value, bool overwrite = true, bool addIfExists = false)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    - id: value
+      type: System.String
+      description: The value to set.
+    - id: overwrite
+      type: System.Boolean
+      description: Whether to overwrite the existing value.
+    - id: addIfExists
+      type: System.Boolean
+      description: Whether to add the value if it already exists.
+    return:
+      type: System.String
+      description: The normalized tag name, or null if not changed.
+    content.vb: Public Function SetTag(tag As String, value As String, overwrite As Boolean = True, addIfExists As Boolean = False) As String
+  overload: Metatogger.Data.AudioFile.SetTag*
+  nameWithType.vb: AudioFile.SetTag(String, String, Boolean, Boolean)
+  fullName.vb: Metatogger.Data.AudioFile.SetTag(String, String, Boolean, Boolean)
+  name.vb: SetTag(String, String, Boolean, Boolean)
+- uid: Metatogger.Data.AudioFile.GetAllTags
+  commentId: M:Metatogger.Data.AudioFile.GetAllTags
+  id: GetAllTags
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: GetAllTags()
+  nameWithType: AudioFile.GetAllTags()
+  fullName: Metatogger.Data.AudioFile.GetAllTags()
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets all tags and their values as a dictionary.
+  example: []
+  syntax:
+    content: public Dictionary<string, List<string>> GetAllTags()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: A dictionary of tag names and their list of values.
+    content.vb: Public Function GetAllTags() As Dictionary(Of String, List(Of String))
+  overload: Metatogger.Data.AudioFile.GetAllTags*
+- uid: Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata
+  commentId: M:Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata
+  id: GetAllFirstTagsWithExtendedMetadata
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: GetAllFirstTagsWithExtendedMetadata()
+  nameWithType: AudioFile.GetAllFirstTagsWithExtendedMetadata()
+  fullName: Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata()
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets all first tag values with extended metadata (technical informations and file properties) as a dictionary.
+  example: []
+  syntax:
+    content: public Dictionary<string, string> GetAllFirstTagsWithExtendedMetadata()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: A dictionary of tag names and their first value or extended metadata.
+    content.vb: Public Function GetAllFirstTagsWithExtendedMetadata() As Dictionary(Of String, String)
+  overload: Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata*
+- uid: Metatogger.Data.AudioFile.GetFirstValue(System.String)
+  commentId: M:Metatogger.Data.AudioFile.GetFirstValue(System.String)
+  id: GetFirstValue(System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: GetFirstValue(string)
+  nameWithType: AudioFile.GetFirstValue(string)
+  fullName: Metatogger.Data.AudioFile.GetFirstValue(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the first value of the specified tag.
+  example: []
+  syntax:
+    content: public string? GetFirstValue(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.String
+      description: The first value of the tag, or null if not available.
+    content.vb: Public Function GetFirstValue(tag As String) As String
+  overload: Metatogger.Data.AudioFile.GetFirstValue*
+  nameWithType.vb: AudioFile.GetFirstValue(String)
+  fullName.vb: Metatogger.Data.AudioFile.GetFirstValue(String)
+  name.vb: GetFirstValue(String)
+- uid: Metatogger.Data.AudioFile.GetValues(System.String)
+  commentId: M:Metatogger.Data.AudioFile.GetValues(System.String)
+  id: GetValues(System.String)
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: GetValues(string)
+  nameWithType: AudioFile.GetValues(string)
+  fullName: Metatogger.Data.AudioFile.GetValues(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the values of the specified tag as a list.
+  example: []
+  syntax:
+    content: public List<string>? GetValues(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.Collections.Generic.List{System.String}
+      description: A list of values for the tag, or null if not available.
+    content.vb: Public Function GetValues(tag As String) As List(Of String)
+  overload: Metatogger.Data.AudioFile.GetValues*
+  nameWithType.vb: AudioFile.GetValues(String)
+  fullName.vb: Metatogger.Data.AudioFile.GetValues(String)
+  name.vb: GetValues(String)
+- uid: Metatogger.Data.AudioFile.ToString
+  commentId: M:Metatogger.Data.AudioFile.ToString
+  id: ToString
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AudioFile.ToString()
+  fullName: Metatogger.Data.AudioFile.ToString()
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Returns the full path of the audio file.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The full path as a string.
+    content.vb: Public Overrides Function ToString() As String
+  overload: Metatogger.Data.AudioFile.ToString*
+- uid: Metatogger.Data.AudioFile.IsEnabled
+  commentId: P:Metatogger.Data.AudioFile.IsEnabled
+  id: IsEnabled
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: IsEnabled
+  nameWithType: AudioFile.IsEnabled
+  fullName: Metatogger.Data.AudioFile.IsEnabled
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets a value indicating whether the audio file is enabled for modification in the Metatogger workspace.
+  example: []
+  syntax:
+    content: public bool IsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsEnabled As Boolean
+  overload: Metatogger.Data.AudioFile.IsEnabled*
+- uid: Metatogger.Data.AudioFile.PathError
+  commentId: P:Metatogger.Data.AudioFile.PathError
+  id: PathError
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: PathError
+  nameWithType: AudioFile.PathError
+  fullName: Metatogger.Data.AudioFile.PathError
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the error message if the output path is invalid, or null if there is no error.
+  example: []
+  syntax:
+    content: public string? PathError { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PathError As String
+  overload: Metatogger.Data.AudioFile.PathError*
+- uid: Metatogger.Data.AudioFile.HasPathError
+  commentId: P:Metatogger.Data.AudioFile.HasPathError
+  id: HasPathError
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasPathError
+  nameWithType: AudioFile.HasPathError
+  fullName: Metatogger.Data.AudioFile.HasPathError
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether there is an error with the output path.
+  example: []
+  syntax:
+    content: public bool HasPathError { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPathError As Boolean
+  overload: Metatogger.Data.AudioFile.HasPathError*
+- uid: Metatogger.Data.AudioFile.HasChanges
+  commentId: P:Metatogger.Data.AudioFile.HasChanges
+  id: HasChanges
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasChanges
+  nameWithType: AudioFile.HasChanges
+  fullName: Metatogger.Data.AudioFile.HasChanges
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the audio file has any changes (tags or path).
+  example: []
+  syntax:
+    content: public bool HasChanges { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasChanges As Boolean
+  overload: Metatogger.Data.AudioFile.HasChanges*
+- uid: Metatogger.Data.AudioFile.HasExternalCoverError
+  commentId: P:Metatogger.Data.AudioFile.HasExternalCoverError
+  id: HasExternalCoverError
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasExternalCoverError
+  nameWithType: AudioFile.HasExternalCoverError
+  fullName: Metatogger.Data.AudioFile.HasExternalCoverError
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether there is an error with the external cover art.
+  example: []
+  syntax:
+    content: public bool HasExternalCoverError { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasExternalCoverError As Boolean
+  overload: Metatogger.Data.AudioFile.HasExternalCoverError*
+- uid: Metatogger.Data.AudioFile.ExternalCover
+  commentId: P:Metatogger.Data.AudioFile.ExternalCover
+  id: ExternalCover
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: ExternalCover
+  nameWithType: AudioFile.ExternalCover
+  fullName: Metatogger.Data.AudioFile.ExternalCover
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets the path to the external cover art file.
+  example: []
+  syntax:
+    content: public string? ExternalCover { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExternalCover As String
+  overload: Metatogger.Data.AudioFile.ExternalCover*
+- uid: Metatogger.Data.AudioFile.ExternalCoverDescription
+  commentId: P:Metatogger.Data.AudioFile.ExternalCoverDescription
+  id: ExternalCoverDescription
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: ExternalCoverDescription
+  nameWithType: AudioFile.ExternalCoverDescription
+  fullName: Metatogger.Data.AudioFile.ExternalCoverDescription
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the description of the external cover art.
+  example: []
+  syntax:
+    content: public string? ExternalCoverDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ExternalCoverDescription As String
+  overload: Metatogger.Data.AudioFile.ExternalCoverDescription*
+- uid: Metatogger.Data.AudioFile.OutputPath
+  commentId: P:Metatogger.Data.AudioFile.OutputPath
+  id: OutputPath
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: OutputPath
+  nameWithType: AudioFile.OutputPath
+  fullName: Metatogger.Data.AudioFile.OutputPath
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets the output path for the audio file.
+  example: []
+  syntax:
+    content: public string OutputPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OutputPath As String
+  overload: Metatogger.Data.AudioFile.OutputPath*
+- uid: Metatogger.Data.AudioFile.HasOutputPathChanged
+  commentId: P:Metatogger.Data.AudioFile.HasOutputPathChanged
+  id: HasOutputPathChanged
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasOutputPathChanged
+  nameWithType: AudioFile.HasOutputPathChanged
+  fullName: Metatogger.Data.AudioFile.HasOutputPathChanged
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the output path has changed.
+  example: []
+  syntax:
+    content: public bool HasOutputPathChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasOutputPathChanged As Boolean
+  overload: Metatogger.Data.AudioFile.HasOutputPathChanged*
+- uid: Metatogger.Data.AudioFile.InputPath
+  commentId: P:Metatogger.Data.AudioFile.InputPath
+  id: InputPath
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: InputPath
+  nameWithType: AudioFile.InputPath
+  fullName: Metatogger.Data.AudioFile.InputPath
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the input path of the audio file.
+  example: []
+  syntax:
+    content: public string InputPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property InputPath As String
+  overload: Metatogger.Data.AudioFile.InputPath*
+- uid: Metatogger.Data.AudioFile.InputFilename
+  commentId: P:Metatogger.Data.AudioFile.InputFilename
+  id: InputFilename
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: InputFilename
+  nameWithType: AudioFile.InputFilename
+  fullName: Metatogger.Data.AudioFile.InputFilename
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the input filename of the audio file.
+  example: []
+  syntax:
+    content: public string InputFilename { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property InputFilename As String
+  overload: Metatogger.Data.AudioFile.InputFilename*
+- uid: Metatogger.Data.AudioFile.OutputFilename
+  commentId: P:Metatogger.Data.AudioFile.OutputFilename
+  id: OutputFilename
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: OutputFilename
+  nameWithType: AudioFile.OutputFilename
+  fullName: Metatogger.Data.AudioFile.OutputFilename
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets the output filename for the audio file.
+  example: []
+  syntax:
+    content: public string OutputFilename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OutputFilename As String
+  overload: Metatogger.Data.AudioFile.OutputFilename*
+- uid: Metatogger.Data.AudioFile.HasOutputFilenameChanged
+  commentId: P:Metatogger.Data.AudioFile.HasOutputFilenameChanged
+  id: HasOutputFilenameChanged
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasOutputFilenameChanged
+  nameWithType: AudioFile.HasOutputFilenameChanged
+  fullName: Metatogger.Data.AudioFile.HasOutputFilenameChanged
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the output filename has changed.
+  example: []
+  syntax:
+    content: public bool HasOutputFilenameChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasOutputFilenameChanged As Boolean
+  overload: Metatogger.Data.AudioFile.HasOutputFilenameChanged*
+- uid: Metatogger.Data.AudioFile.Cover
+  commentId: P:Metatogger.Data.AudioFile.Cover
+  id: Cover
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Cover
+  nameWithType: AudioFile.Cover
+  fullName: Metatogger.Data.AudioFile.Cover
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets the temporary path to the embedded cover art file.
+  example: []
+  syntax:
+    content: public string? Cover { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Cover As String
+  overload: Metatogger.Data.AudioFile.Cover*
+- uid: Metatogger.Data.AudioFile.CoverDescription
+  commentId: P:Metatogger.Data.AudioFile.CoverDescription
+  id: CoverDescription
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: CoverDescription
+  nameWithType: AudioFile.CoverDescription
+  fullName: Metatogger.Data.AudioFile.CoverDescription
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the description of the embedded cover art.
+  example: []
+  syntax:
+    content: public string? CoverDescription { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CoverDescription As String
+  overload: Metatogger.Data.AudioFile.CoverDescription*
+- uid: Metatogger.Data.AudioFile.HasCoverChanged
+  commentId: P:Metatogger.Data.AudioFile.HasCoverChanged
+  id: HasCoverChanged
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasCoverChanged
+  nameWithType: AudioFile.HasCoverChanged
+  fullName: Metatogger.Data.AudioFile.HasCoverChanged
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the embedded cover art has changed.
+  example: []
+  syntax:
+    content: public bool HasCoverChanged { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasCoverChanged As Boolean
+  overload: Metatogger.Data.AudioFile.HasCoverChanged*
+- uid: Metatogger.Data.AudioFile.HasCoverError
+  commentId: P:Metatogger.Data.AudioFile.HasCoverError
+  id: HasCoverError
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasCoverError
+  nameWithType: AudioFile.HasCoverError
+  fullName: Metatogger.Data.AudioFile.HasCoverError
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether there is an error with the embedded cover art.
+  example: []
+  syntax:
+    content: public bool HasCoverError { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasCoverError As Boolean
+  overload: Metatogger.Data.AudioFile.HasCoverError*
+- uid: Metatogger.Data.AudioFile.Codec
+  commentId: P:Metatogger.Data.AudioFile.Codec
+  id: Codec
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Codec
+  nameWithType: AudioFile.Codec
+  fullName: Metatogger.Data.AudioFile.Codec
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the codec name of the audio file.
+  example: []
+  syntax:
+    content: public string Codec { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Codec As String
+  overload: Metatogger.Data.AudioFile.Codec*
+- uid: Metatogger.Data.AudioFile.CodecVersion
+  commentId: P:Metatogger.Data.AudioFile.CodecVersion
+  id: CodecVersion
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: CodecVersion
+  nameWithType: AudioFile.CodecVersion
+  fullName: Metatogger.Data.AudioFile.CodecVersion
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the codec version of the audio file.
+  example: []
+  syntax:
+    content: public string CodecVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CodecVersion As String
+  overload: Metatogger.Data.AudioFile.CodecVersion*
+- uid: Metatogger.Data.AudioFile.Seconds
+  commentId: P:Metatogger.Data.AudioFile.Seconds
+  id: Seconds
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Seconds
+  nameWithType: AudioFile.Seconds
+  fullName: Metatogger.Data.AudioFile.Seconds
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the duration of the audio file in seconds.
+  example: []
+  syntax:
+    content: public double Seconds { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Seconds As Double
+  overload: Metatogger.Data.AudioFile.Seconds*
+- uid: Metatogger.Data.AudioFile.Channels
+  commentId: P:Metatogger.Data.AudioFile.Channels
+  id: Channels
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: AudioFile.Channels
+  fullName: Metatogger.Data.AudioFile.Channels
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the number of audio channels.
+  example: []
+  syntax:
+    content: public int Channels { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Channels As Integer
+  overload: Metatogger.Data.AudioFile.Channels*
+- uid: Metatogger.Data.AudioFile.NominalBitrate
+  commentId: P:Metatogger.Data.AudioFile.NominalBitrate
+  id: NominalBitrate
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: NominalBitrate
+  nameWithType: AudioFile.NominalBitrate
+  fullName: Metatogger.Data.AudioFile.NominalBitrate
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the nominal bitrate of the audio file.
+  example: []
+  syntax:
+    content: public int NominalBitrate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property NominalBitrate As Integer
+  overload: Metatogger.Data.AudioFile.NominalBitrate*
+- uid: Metatogger.Data.AudioFile.BitsSample
+  commentId: P:Metatogger.Data.AudioFile.BitsSample
+  id: BitsSample
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: BitsSample
+  nameWithType: AudioFile.BitsSample
+  fullName: Metatogger.Data.AudioFile.BitsSample
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the number of bits per sample.
+  example: []
+  syntax:
+    content: public int BitsSample { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BitsSample As Integer
+  overload: Metatogger.Data.AudioFile.BitsSample*
+- uid: Metatogger.Data.AudioFile.HasCoverSupport
+  commentId: P:Metatogger.Data.AudioFile.HasCoverSupport
+  id: HasCoverSupport
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasCoverSupport
+  nameWithType: AudioFile.HasCoverSupport
+  fullName: Metatogger.Data.AudioFile.HasCoverSupport
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the audio file supports embedded cover art.
+  example: []
+  syntax:
+    content: public bool HasCoverSupport { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasCoverSupport As Boolean
+  overload: Metatogger.Data.AudioFile.HasCoverSupport*
+- uid: Metatogger.Data.AudioFile.FileProcess
+  commentId: P:Metatogger.Data.AudioFile.FileProcess
+  id: FileProcess
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: FileProcess
+  nameWithType: AudioFile.FileProcess
+  fullName: Metatogger.Data.AudioFile.FileProcess
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets or sets the file process operation to be performed on the audio file.
+  example: []
+  syntax:
+    content: public FileProcess FileProcess { get; set; }
+    parameters: []
+    return:
+      type: Metatogger.FileProcess
+    content.vb: Public Property FileProcess As FileProcess
+  overload: Metatogger.Data.AudioFile.FileProcess*
+- uid: Metatogger.Data.AudioFile.HasTagChanges
+  commentId: P:Metatogger.Data.AudioFile.HasTagChanges
+  id: HasTagChanges
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasTagChanges
+  nameWithType: AudioFile.HasTagChanges
+  fullName: Metatogger.Data.AudioFile.HasTagChanges
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether any tag has changed.
+  example: []
+  syntax:
+    content: public bool HasTagChanges { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasTagChanges As Boolean
+  overload: Metatogger.Data.AudioFile.HasTagChanges*
+- uid: Metatogger.Data.AudioFile.HasPathChanges
+  commentId: P:Metatogger.Data.AudioFile.HasPathChanges
+  id: HasPathChanges
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: HasPathChanges
+  nameWithType: AudioFile.HasPathChanges
+  fullName: Metatogger.Data.AudioFile.HasPathChanges
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets a value indicating whether the path (output path or filename) has changed.
+  example: []
+  syntax:
+    content: public bool HasPathChanges { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPathChanges As Boolean
+  overload: Metatogger.Data.AudioFile.HasPathChanges*
+- uid: Metatogger.Data.AudioFile.FullPath
+  commentId: P:Metatogger.Data.AudioFile.FullPath
+  id: FullPath
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: FullPath
+  nameWithType: AudioFile.FullPath
+  fullName: Metatogger.Data.AudioFile.FullPath
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the full path of the audio file.
+  example: []
+  syntax:
+    content: public string FullPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullPath As String
+  overload: Metatogger.Data.AudioFile.FullPath*
+- uid: Metatogger.Data.AudioFile.SimilarityGroupId
+  commentId: P:Metatogger.Data.AudioFile.SimilarityGroupId
+  id: SimilarityGroupId
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: SimilarityGroupId
+  nameWithType: AudioFile.SimilarityGroupId
+  fullName: Metatogger.Data.AudioFile.SimilarityGroupId
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the similarity group ID for the audio file.
+  example: []
+  syntax:
+    content: public int SimilarityGroupId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SimilarityGroupId As Integer
+  overload: Metatogger.Data.AudioFile.SimilarityGroupId*
+- uid: Metatogger.Data.AudioFile.Duration
+  commentId: P:Metatogger.Data.AudioFile.Duration
+  id: Duration
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: AudioFile.Duration
+  fullName: Metatogger.Data.AudioFile.Duration
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the formatted duration string of the audio file.
+  example: []
+  syntax:
+    content: public string Duration { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Duration As String
+  overload: Metatogger.Data.AudioFile.Duration*
+- uid: Metatogger.Data.AudioFile.ChannelMode
+  commentId: P:Metatogger.Data.AudioFile.ChannelMode
+  id: ChannelMode
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: ChannelMode
+  nameWithType: AudioFile.ChannelMode
+  fullName: Metatogger.Data.AudioFile.ChannelMode
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the channel mode as a string (e.g., "Mono", "Stereo").
+  example: []
+  syntax:
+    content: public string ChannelMode { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ChannelMode As String
+  overload: Metatogger.Data.AudioFile.ChannelMode*
+- uid: Metatogger.Data.AudioFile.SampleRate
+  commentId: P:Metatogger.Data.AudioFile.SampleRate
+  id: SampleRate
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: SampleRate
+  nameWithType: AudioFile.SampleRate
+  fullName: Metatogger.Data.AudioFile.SampleRate
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the sample rate as a formatted string, in Hertz.
+  example: []
+  syntax:
+    content: public string SampleRate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SampleRate As String
+  overload: Metatogger.Data.AudioFile.SampleRate*
+- uid: Metatogger.Data.AudioFile.Bitrate
+  commentId: P:Metatogger.Data.AudioFile.Bitrate
+  id: Bitrate
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: Bitrate
+  nameWithType: AudioFile.Bitrate
+  fullName: Metatogger.Data.AudioFile.Bitrate
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the bitrate as a formatted string, in kbps.
+  example: []
+  syntax:
+    content: public string Bitrate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Bitrate As String
+  overload: Metatogger.Data.AudioFile.Bitrate*
+- uid: Metatogger.Data.AudioFile.BitsPerSample
+  commentId: P:Metatogger.Data.AudioFile.BitsPerSample
+  id: BitsPerSample
+  parent: Metatogger.Data.AudioFile
+  langs:
+  - csharp
+  - vb
+  name: BitsPerSample
+  nameWithType: AudioFile.BitsPerSample
+  fullName: Metatogger.Data.AudioFile.BitsPerSample
+  type: Property
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the bits per sample as a formatted string, in bits.
+  example: []
+  syntax:
+    content: public string BitsPerSample { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BitsPerSample As String
+  overload: Metatogger.Data.AudioFile.BitsPerSample*
+references:
+- uid: Metatogger.Data
+  commentId: N:Metatogger.Data
+  isExternal: true
+  href: Metatogger.html
+  name: Metatogger.Data
+  nameWithType: Metatogger.Data
+  fullName: Metatogger.Data
+  spec.csharp:
+  - uid: Metatogger
+    name: Metatogger
+    isExternal: true
+    href: Metatogger.html
+  - name: .
+  - uid: Metatogger.Data
+    name: Data
+    isExternal: true
+    href: Metatogger.Data.html
+  spec.vb:
+  - uid: Metatogger
+    name: Metatogger
+    isExternal: true
+    href: Metatogger.html
+  - name: .
+  - uid: Metatogger.Data
+    name: Data
+    isExternal: true
+    href: Metatogger.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Metatogger.Data.AudioFile.HasChange*
+  commentId: Overload:Metatogger.Data.AudioFile.HasChange
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasChange_System_String_
+  name: HasChange
+  nameWithType: AudioFile.HasChange
+  fullName: Metatogger.Data.AudioFile.HasChange
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Metatogger.Data.AudioFile.GetPreviousTagValue*
+  commentId: Overload:Metatogger.Data.AudioFile.GetPreviousTagValue
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_GetPreviousTagValue_System_String_
+  name: GetPreviousTagValue
+  nameWithType: AudioFile.GetPreviousTagValue
+  fullName: Metatogger.Data.AudioFile.GetPreviousTagValue
+- uid: Metatogger.Data.AudioFile.RejectChange*
+  commentId: Overload:Metatogger.Data.AudioFile.RejectChange
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_RejectChange_System_String_
+  name: RejectChange
+  nameWithType: AudioFile.RejectChange
+  fullName: Metatogger.Data.AudioFile.RejectChange
+- uid: Metatogger.Data.AudioFile.RejectChanges*
+  commentId: Overload:Metatogger.Data.AudioFile.RejectChanges
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_RejectChanges
+  name: RejectChanges
+  nameWithType: AudioFile.RejectChanges
+  fullName: Metatogger.Data.AudioFile.RejectChanges
+- uid: Metatogger.Data.AudioFile.SaveChangesAsync*
+  commentId: Overload:Metatogger.Data.AudioFile.SaveChangesAsync
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_SaveChangesAsync
+  name: SaveChangesAsync
+  nameWithType: AudioFile.SaveChangesAsync
+  fullName: Metatogger.Data.AudioFile.SaveChangesAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Metatogger.Data.AudioFile.SetTagValue*
+  commentId: Overload:Metatogger.Data.AudioFile.SetTagValue
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_SetTagValue_System_String_System_String_System_String_
+  name: SetTagValue
+  nameWithType: AudioFile.SetTagValue
+  fullName: Metatogger.Data.AudioFile.SetTagValue
+- uid: Metatogger.Data.AudioFile.SetTag*
+  commentId: Overload:Metatogger.Data.AudioFile.SetTag
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_SetTag_System_String_System_String_System_Boolean_System_Boolean_
+  name: SetTag
+  nameWithType: AudioFile.SetTag
+  fullName: Metatogger.Data.AudioFile.SetTag
+- uid: Metatogger.Data.AudioFile.GetAllTags*
+  commentId: Overload:Metatogger.Data.AudioFile.GetAllTags
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_GetAllTags
+  name: GetAllTags
+  nameWithType: AudioFile.GetAllTags
+  fullName: Metatogger.Data.AudioFile.GetAllTags
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, List<string>>
+  nameWithType: Dictionary<string, List<string>>
+  fullName: System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<string>>
+  nameWithType.vb: Dictionary(Of String, List(Of String))
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, System.Collections.Generic.List(Of String))
+  name.vb: Dictionary(Of String, List(Of String))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata*
+  commentId: Overload:Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_GetAllFirstTagsWithExtendedMetadata
+  name: GetAllFirstTagsWithExtendedMetadata
+  nameWithType: AudioFile.GetAllFirstTagsWithExtendedMetadata
+  fullName: Metatogger.Data.AudioFile.GetAllFirstTagsWithExtendedMetadata
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, string>
+  nameWithType: Dictionary<string, string>
+  fullName: System.Collections.Generic.Dictionary<string, string>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Metatogger.Data.AudioFile.GetFirstValue*
+  commentId: Overload:Metatogger.Data.AudioFile.GetFirstValue
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_GetFirstValue_System_String_
+  name: GetFirstValue
+  nameWithType: AudioFile.GetFirstValue
+  fullName: Metatogger.Data.AudioFile.GetFirstValue
+- uid: Metatogger.Data.AudioFile.GetValues*
+  commentId: Overload:Metatogger.Data.AudioFile.GetValues
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_GetValues_System_String_
+  name: GetValues
+  nameWithType: AudioFile.GetValues
+  fullName: Metatogger.Data.AudioFile.GetValues
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Metatogger.Data.AudioFile.ToString*
+  commentId: Overload:Metatogger.Data.AudioFile.ToString
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_ToString
+  name: ToString
+  nameWithType: AudioFile.ToString
+  fullName: Metatogger.Data.AudioFile.ToString
+- uid: Metatogger.Data.AudioFile.IsEnabled*
+  commentId: Overload:Metatogger.Data.AudioFile.IsEnabled
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_IsEnabled
+  name: IsEnabled
+  nameWithType: AudioFile.IsEnabled
+  fullName: Metatogger.Data.AudioFile.IsEnabled
+- uid: Metatogger.Data.AudioFile.PathError*
+  commentId: Overload:Metatogger.Data.AudioFile.PathError
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_PathError
+  name: PathError
+  nameWithType: AudioFile.PathError
+  fullName: Metatogger.Data.AudioFile.PathError
+- uid: Metatogger.Data.AudioFile.HasPathError*
+  commentId: Overload:Metatogger.Data.AudioFile.HasPathError
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasPathError
+  name: HasPathError
+  nameWithType: AudioFile.HasPathError
+  fullName: Metatogger.Data.AudioFile.HasPathError
+- uid: Metatogger.Data.AudioFile.HasChanges*
+  commentId: Overload:Metatogger.Data.AudioFile.HasChanges
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasChanges
+  name: HasChanges
+  nameWithType: AudioFile.HasChanges
+  fullName: Metatogger.Data.AudioFile.HasChanges
+- uid: Metatogger.Data.AudioFile.HasExternalCoverError*
+  commentId: Overload:Metatogger.Data.AudioFile.HasExternalCoverError
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasExternalCoverError
+  name: HasExternalCoverError
+  nameWithType: AudioFile.HasExternalCoverError
+  fullName: Metatogger.Data.AudioFile.HasExternalCoverError
+- uid: Metatogger.Data.AudioFile.ExternalCover*
+  commentId: Overload:Metatogger.Data.AudioFile.ExternalCover
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_ExternalCover
+  name: ExternalCover
+  nameWithType: AudioFile.ExternalCover
+  fullName: Metatogger.Data.AudioFile.ExternalCover
+- uid: Metatogger.Data.AudioFile.ExternalCoverDescription*
+  commentId: Overload:Metatogger.Data.AudioFile.ExternalCoverDescription
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_ExternalCoverDescription
+  name: ExternalCoverDescription
+  nameWithType: AudioFile.ExternalCoverDescription
+  fullName: Metatogger.Data.AudioFile.ExternalCoverDescription
+- uid: Metatogger.Data.AudioFile.OutputPath*
+  commentId: Overload:Metatogger.Data.AudioFile.OutputPath
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_OutputPath
+  name: OutputPath
+  nameWithType: AudioFile.OutputPath
+  fullName: Metatogger.Data.AudioFile.OutputPath
+- uid: Metatogger.Data.AudioFile.HasOutputPathChanged*
+  commentId: Overload:Metatogger.Data.AudioFile.HasOutputPathChanged
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasOutputPathChanged
+  name: HasOutputPathChanged
+  nameWithType: AudioFile.HasOutputPathChanged
+  fullName: Metatogger.Data.AudioFile.HasOutputPathChanged
+- uid: Metatogger.Data.AudioFile.InputPath*
+  commentId: Overload:Metatogger.Data.AudioFile.InputPath
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_InputPath
+  name: InputPath
+  nameWithType: AudioFile.InputPath
+  fullName: Metatogger.Data.AudioFile.InputPath
+- uid: Metatogger.Data.AudioFile.InputFilename*
+  commentId: Overload:Metatogger.Data.AudioFile.InputFilename
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_InputFilename
+  name: InputFilename
+  nameWithType: AudioFile.InputFilename
+  fullName: Metatogger.Data.AudioFile.InputFilename
+- uid: Metatogger.Data.AudioFile.OutputFilename*
+  commentId: Overload:Metatogger.Data.AudioFile.OutputFilename
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_OutputFilename
+  name: OutputFilename
+  nameWithType: AudioFile.OutputFilename
+  fullName: Metatogger.Data.AudioFile.OutputFilename
+- uid: Metatogger.Data.AudioFile.HasOutputFilenameChanged*
+  commentId: Overload:Metatogger.Data.AudioFile.HasOutputFilenameChanged
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasOutputFilenameChanged
+  name: HasOutputFilenameChanged
+  nameWithType: AudioFile.HasOutputFilenameChanged
+  fullName: Metatogger.Data.AudioFile.HasOutputFilenameChanged
+- uid: Metatogger.Data.AudioFile.Cover*
+  commentId: Overload:Metatogger.Data.AudioFile.Cover
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Cover
+  name: Cover
+  nameWithType: AudioFile.Cover
+  fullName: Metatogger.Data.AudioFile.Cover
+- uid: Metatogger.Data.AudioFile.CoverDescription*
+  commentId: Overload:Metatogger.Data.AudioFile.CoverDescription
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_CoverDescription
+  name: CoverDescription
+  nameWithType: AudioFile.CoverDescription
+  fullName: Metatogger.Data.AudioFile.CoverDescription
+- uid: Metatogger.Data.AudioFile.HasCoverChanged*
+  commentId: Overload:Metatogger.Data.AudioFile.HasCoverChanged
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasCoverChanged
+  name: HasCoverChanged
+  nameWithType: AudioFile.HasCoverChanged
+  fullName: Metatogger.Data.AudioFile.HasCoverChanged
+- uid: Metatogger.Data.AudioFile.HasCoverError*
+  commentId: Overload:Metatogger.Data.AudioFile.HasCoverError
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasCoverError
+  name: HasCoverError
+  nameWithType: AudioFile.HasCoverError
+  fullName: Metatogger.Data.AudioFile.HasCoverError
+- uid: Metatogger.Data.AudioFile.Codec*
+  commentId: Overload:Metatogger.Data.AudioFile.Codec
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Codec
+  name: Codec
+  nameWithType: AudioFile.Codec
+  fullName: Metatogger.Data.AudioFile.Codec
+- uid: Metatogger.Data.AudioFile.CodecVersion*
+  commentId: Overload:Metatogger.Data.AudioFile.CodecVersion
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_CodecVersion
+  name: CodecVersion
+  nameWithType: AudioFile.CodecVersion
+  fullName: Metatogger.Data.AudioFile.CodecVersion
+- uid: Metatogger.Data.AudioFile.Seconds*
+  commentId: Overload:Metatogger.Data.AudioFile.Seconds
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Seconds
+  name: Seconds
+  nameWithType: AudioFile.Seconds
+  fullName: Metatogger.Data.AudioFile.Seconds
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Metatogger.Data.AudioFile.Channels*
+  commentId: Overload:Metatogger.Data.AudioFile.Channels
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Channels
+  name: Channels
+  nameWithType: AudioFile.Channels
+  fullName: Metatogger.Data.AudioFile.Channels
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Metatogger.Data.AudioFile.NominalBitrate*
+  commentId: Overload:Metatogger.Data.AudioFile.NominalBitrate
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_NominalBitrate
+  name: NominalBitrate
+  nameWithType: AudioFile.NominalBitrate
+  fullName: Metatogger.Data.AudioFile.NominalBitrate
+- uid: Metatogger.Data.AudioFile.BitsSample*
+  commentId: Overload:Metatogger.Data.AudioFile.BitsSample
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_BitsSample
+  name: BitsSample
+  nameWithType: AudioFile.BitsSample
+  fullName: Metatogger.Data.AudioFile.BitsSample
+- uid: Metatogger.Data.AudioFile.HasCoverSupport*
+  commentId: Overload:Metatogger.Data.AudioFile.HasCoverSupport
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasCoverSupport
+  name: HasCoverSupport
+  nameWithType: AudioFile.HasCoverSupport
+  fullName: Metatogger.Data.AudioFile.HasCoverSupport
+- uid: Metatogger.Data.AudioFile.FileProcess*
+  commentId: Overload:Metatogger.Data.AudioFile.FileProcess
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_FileProcess
+  name: FileProcess
+  nameWithType: AudioFile.FileProcess
+  fullName: Metatogger.Data.AudioFile.FileProcess
+- uid: Metatogger.FileProcess
+  commentId: T:Metatogger.FileProcess
+  parent: Metatogger
+  isExternal: true
+  href: Metatogger.FileProcess.html
+  name: FileProcess
+  nameWithType: FileProcess
+  fullName: Metatogger.FileProcess
+- uid: Metatogger
+  commentId: N:Metatogger
+  isExternal: true
+  href: Metatogger.html
+  name: Metatogger
+  nameWithType: Metatogger
+  fullName: Metatogger
+- uid: Metatogger.Data.AudioFile.HasTagChanges*
+  commentId: Overload:Metatogger.Data.AudioFile.HasTagChanges
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasTagChanges
+  name: HasTagChanges
+  nameWithType: AudioFile.HasTagChanges
+  fullName: Metatogger.Data.AudioFile.HasTagChanges
+- uid: Metatogger.Data.AudioFile.HasPathChanges*
+  commentId: Overload:Metatogger.Data.AudioFile.HasPathChanges
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_HasPathChanges
+  name: HasPathChanges
+  nameWithType: AudioFile.HasPathChanges
+  fullName: Metatogger.Data.AudioFile.HasPathChanges
+- uid: Metatogger.Data.AudioFile.FullPath*
+  commentId: Overload:Metatogger.Data.AudioFile.FullPath
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_FullPath
+  name: FullPath
+  nameWithType: AudioFile.FullPath
+  fullName: Metatogger.Data.AudioFile.FullPath
+- uid: Metatogger.Data.AudioFile.SimilarityGroupId*
+  commentId: Overload:Metatogger.Data.AudioFile.SimilarityGroupId
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_SimilarityGroupId
+  name: SimilarityGroupId
+  nameWithType: AudioFile.SimilarityGroupId
+  fullName: Metatogger.Data.AudioFile.SimilarityGroupId
+- uid: Metatogger.Data.AudioFile.Duration*
+  commentId: Overload:Metatogger.Data.AudioFile.Duration
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Duration
+  name: Duration
+  nameWithType: AudioFile.Duration
+  fullName: Metatogger.Data.AudioFile.Duration
+- uid: Metatogger.Data.AudioFile.ChannelMode*
+  commentId: Overload:Metatogger.Data.AudioFile.ChannelMode
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_ChannelMode
+  name: ChannelMode
+  nameWithType: AudioFile.ChannelMode
+  fullName: Metatogger.Data.AudioFile.ChannelMode
+- uid: Metatogger.Data.AudioFile.SampleRate*
+  commentId: Overload:Metatogger.Data.AudioFile.SampleRate
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_SampleRate
+  name: SampleRate
+  nameWithType: AudioFile.SampleRate
+  fullName: Metatogger.Data.AudioFile.SampleRate
+- uid: Metatogger.Data.AudioFile.Bitrate*
+  commentId: Overload:Metatogger.Data.AudioFile.Bitrate
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_Bitrate
+  name: Bitrate
+  nameWithType: AudioFile.Bitrate
+  fullName: Metatogger.Data.AudioFile.Bitrate
+- uid: Metatogger.Data.AudioFile.BitsPerSample*
+  commentId: Overload:Metatogger.Data.AudioFile.BitsPerSample
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html#Metatogger_Data_AudioFile_BitsPerSample
+  name: BitsPerSample
+  nameWithType: AudioFile.BitsPerSample
+  fullName: Metatogger.Data.AudioFile.BitsPerSample

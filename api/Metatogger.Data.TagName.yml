@@ -1,0 +1,1012 @@
+### YamlMime:ManagedReference
+items:
+- uid: Metatogger.Data.TagName
+  commentId: T:Metatogger.Data.TagName
+  id: TagName
+  parent: Metatogger.Data
+  children:
+  - Metatogger.Data.TagName.Album
+  - Metatogger.Data.TagName.AlbumArtist
+  - Metatogger.Data.TagName.AlbumArtistSort
+  - Metatogger.Data.TagName.AlbumSort
+  - Metatogger.Data.TagName.AllSupportedTags
+  - Metatogger.Data.TagName.Artist
+  - Metatogger.Data.TagName.ArtistSort
+  - Metatogger.Data.TagName.Comment
+  - Metatogger.Data.TagName.CommonTags
+  - Metatogger.Data.TagName.Composer
+  - Metatogger.Data.TagName.Date
+  - Metatogger.Data.TagName.DiscNumber
+  - Metatogger.Data.TagName.Genre
+  - Metatogger.Data.TagName.GetDescription(System.String)
+  - Metatogger.Data.TagName.GetFriendlyName(System.String)
+  - Metatogger.Data.TagName.Label
+  - Metatogger.Data.TagName.Language
+  - Metatogger.Data.TagName.Lyricist
+  - Metatogger.Data.TagName.Lyrics
+  - Metatogger.Data.TagName.OriginalAlbum
+  - Metatogger.Data.TagName.OriginalArtist
+  - Metatogger.Data.TagName.OriginalDate
+  - Metatogger.Data.TagName.Title
+  - Metatogger.Data.TagName.TitleSort
+  - Metatogger.Data.TagName.TrackNumber
+  - Metatogger.Data.TagName.UncommonTags
+  langs:
+  - csharp
+  - vb
+  name: TagName
+  nameWithType: TagName
+  fullName: Metatogger.Data.TagName
+  type: Class
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Provides constants for standard and extended tag names used in audio metadata, as well as helper methods for tag display and description.
+  example: []
+  syntax:
+    content: public static class TagName
+    content.vb: Public Module TagName
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: Metatogger.Data.TagName.Artist
+  commentId: F:Metatogger.Data.TagName.Artist
+  id: Artist
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Artist
+  nameWithType: TagName.Artist
+  fullName: Metatogger.Data.TagName.Artist
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The name of the main artist of the piece.
+  example: []
+  syntax:
+    content: public const string Artist = "ARTIST"
+    return:
+      type: System.String
+    content.vb: Public Const Artist As String = "ARTIST"
+- uid: Metatogger.Data.TagName.Title
+  commentId: F:Metatogger.Data.TagName.Title
+  id: Title
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TagName.Title
+  fullName: Metatogger.Data.TagName.Title
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The title of the piece.
+  example: []
+  syntax:
+    content: public const string Title = "TITLE"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "TITLE"
+- uid: Metatogger.Data.TagName.Date
+  commentId: F:Metatogger.Data.TagName.Date
+  id: Date
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TagName.Date
+  fullName: Metatogger.Data.TagName.Date
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The date the piece is released, usually the year.
+  example: []
+  syntax:
+    content: public const string Date = "DATE"
+    return:
+      type: System.String
+    content.vb: Public Const Date As String = "DATE"
+- uid: Metatogger.Data.TagName.Album
+  commentId: F:Metatogger.Data.TagName.Album
+  id: Album
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Album
+  nameWithType: TagName.Album
+  fullName: Metatogger.Data.TagName.Album
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The title of the album from which the piece is taken.
+  example: []
+  syntax:
+    content: public const string Album = "ALBUM"
+    return:
+      type: System.String
+    content.vb: Public Const Album As String = "ALBUM"
+- uid: Metatogger.Data.TagName.Genre
+  commentId: F:Metatogger.Data.TagName.Genre
+  id: Genre
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Genre
+  nameWithType: TagName.Genre
+  fullName: Metatogger.Data.TagName.Genre
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The music genre of the piece.
+  example: []
+  syntax:
+    content: public const string Genre = "GENRE"
+    return:
+      type: System.String
+    content.vb: Public Const Genre As String = "GENRE"
+- uid: Metatogger.Data.TagName.TrackNumber
+  commentId: F:Metatogger.Data.TagName.TrackNumber
+  id: TrackNumber
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: TrackNumber
+  nameWithType: TagName.TrackNumber
+  fullName: Metatogger.Data.TagName.TrackNumber
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The track number of the piece on the album.
+  example: []
+  syntax:
+    content: public const string TrackNumber = "TRACKNUMBER"
+    return:
+      type: System.String
+    content.vb: Public Const TrackNumber As String = "TRACKNUMBER"
+- uid: Metatogger.Data.TagName.AlbumArtist
+  commentId: F:Metatogger.Data.TagName.AlbumArtist
+  id: AlbumArtist
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: AlbumArtist
+  nameWithType: TagName.AlbumArtist
+  fullName: Metatogger.Data.TagName.AlbumArtist
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The name of the main artist when there is more than one artist on the album, as on a compilation.
+  example: []
+  syntax:
+    content: public const string AlbumArtist = "ALBUMARTIST"
+    return:
+      type: System.String
+    content.vb: Public Const AlbumArtist As String = "ALBUMARTIST"
+- uid: Metatogger.Data.TagName.DiscNumber
+  commentId: F:Metatogger.Data.TagName.DiscNumber
+  id: DiscNumber
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: DiscNumber
+  nameWithType: TagName.DiscNumber
+  fullName: Metatogger.Data.TagName.DiscNumber
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The part of a set the piece comes from.
+  example: []
+  syntax:
+    content: public const string DiscNumber = "DISCNUMBER"
+    return:
+      type: System.String
+    content.vb: Public Const DiscNumber As String = "DISCNUMBER"
+- uid: Metatogger.Data.TagName.Lyricist
+  commentId: F:Metatogger.Data.TagName.Lyricist
+  id: Lyricist
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Lyricist
+  nameWithType: TagName.Lyricist
+  fullName: Metatogger.Data.TagName.Lyricist
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The writer of the lyrics of the piece.
+  example: []
+  syntax:
+    content: public const string Lyricist = "LYRICIST"
+    return:
+      type: System.String
+    content.vb: Public Const Lyricist As String = "LYRICIST"
+- uid: Metatogger.Data.TagName.Composer
+  commentId: F:Metatogger.Data.TagName.Composer
+  id: Composer
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Composer
+  nameWithType: TagName.Composer
+  fullName: Metatogger.Data.TagName.Composer
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The name of the composer of the piece.
+  example: []
+  syntax:
+    content: public const string Composer = "COMPOSER"
+    return:
+      type: System.String
+    content.vb: Public Const Composer As String = "COMPOSER"
+- uid: Metatogger.Data.TagName.Language
+  commentId: F:Metatogger.Data.TagName.Language
+  id: Language
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TagName.Language
+  fullName: Metatogger.Data.TagName.Language
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The languages used in the lyrics of the piece.
+  example: []
+  syntax:
+    content: public const string Language = "LANGUAGE"
+    return:
+      type: System.String
+    content.vb: Public Const Language As String = "LANGUAGE"
+- uid: Metatogger.Data.TagName.OriginalAlbum
+  commentId: F:Metatogger.Data.TagName.OriginalAlbum
+  id: OriginalAlbum
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: OriginalAlbum
+  nameWithType: TagName.OriginalAlbum
+  fullName: Metatogger.Data.TagName.OriginalAlbum
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The title of the original album when the piece has been re-released on an another album.
+  example: []
+  syntax:
+    content: public const string OriginalAlbum = "ORIGINALALBUM"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalAlbum As String = "ORIGINALALBUM"
+- uid: Metatogger.Data.TagName.OriginalArtist
+  commentId: F:Metatogger.Data.TagName.OriginalArtist
+  id: OriginalArtist
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: OriginalArtist
+  nameWithType: TagName.OriginalArtist
+  fullName: Metatogger.Data.TagName.OriginalArtist
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The name of the original artist of the piece when this one is a cover by an another artist.
+  example: []
+  syntax:
+    content: public const string OriginalArtist = "ORIGINALARTIST"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalArtist As String = "ORIGINALARTIST"
+- uid: Metatogger.Data.TagName.OriginalDate
+  commentId: F:Metatogger.Data.TagName.OriginalDate
+  id: OriginalDate
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: OriginalDate
+  nameWithType: TagName.OriginalDate
+  fullName: Metatogger.Data.TagName.OriginalDate
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The date of first release of the piece when this one has been re-released, usually the year.
+  example: []
+  syntax:
+    content: public const string OriginalDate = "ORIGINALDATE"
+    return:
+      type: System.String
+    content.vb: Public Const OriginalDate As String = "ORIGINALDATE"
+- uid: Metatogger.Data.TagName.AlbumSort
+  commentId: F:Metatogger.Data.TagName.AlbumSort
+  id: AlbumSort
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: AlbumSort
+  nameWithType: TagName.AlbumSort
+  fullName: Metatogger.Data.TagName.AlbumSort
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Alternative "Album" tag used for sorting purposes.
+  example: []
+  syntax:
+    content: public const string AlbumSort = "ALBUMSORT"
+    return:
+      type: System.String
+    content.vb: Public Const AlbumSort As String = "ALBUMSORT"
+- uid: Metatogger.Data.TagName.ArtistSort
+  commentId: F:Metatogger.Data.TagName.ArtistSort
+  id: ArtistSort
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: ArtistSort
+  nameWithType: TagName.ArtistSort
+  fullName: Metatogger.Data.TagName.ArtistSort
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Alternative "Artist" tag used for sorting purposes.
+  example: []
+  syntax:
+    content: public const string ArtistSort = "ARTISTSORT"
+    return:
+      type: System.String
+    content.vb: Public Const ArtistSort As String = "ARTISTSORT"
+- uid: Metatogger.Data.TagName.AlbumArtistSort
+  commentId: F:Metatogger.Data.TagName.AlbumArtistSort
+  id: AlbumArtistSort
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: AlbumArtistSort
+  nameWithType: TagName.AlbumArtistSort
+  fullName: Metatogger.Data.TagName.AlbumArtistSort
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Alternative "Album Artist" tag used for sorting purposes.
+  example: []
+  syntax:
+    content: public const string AlbumArtistSort = "ALBUMARTISTSORT"
+    return:
+      type: System.String
+    content.vb: Public Const AlbumArtistSort As String = "ALBUMARTISTSORT"
+- uid: Metatogger.Data.TagName.TitleSort
+  commentId: F:Metatogger.Data.TagName.TitleSort
+  id: TitleSort
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: TitleSort
+  nameWithType: TagName.TitleSort
+  fullName: Metatogger.Data.TagName.TitleSort
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Alternative "Title" tag used for sorting purposes.
+  example: []
+  syntax:
+    content: public const string TitleSort = "TITLESORT"
+    return:
+      type: System.String
+    content.vb: Public Const TitleSort As String = "TITLESORT"
+- uid: Metatogger.Data.TagName.Label
+  commentId: F:Metatogger.Data.TagName.Label
+  id: Label
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: TagName.Label
+  fullName: Metatogger.Data.TagName.Label
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The name of the label or publisher.
+  example: []
+  syntax:
+    content: public const string Label = "LABEL"
+    return:
+      type: System.String
+    content.vb: Public Const Label As String = "LABEL"
+- uid: Metatogger.Data.TagName.Comment
+  commentId: F:Metatogger.Data.TagName.Comment
+  id: Comment
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: TagName.Comment
+  fullName: Metatogger.Data.TagName.Comment
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Any kind of information that does not fit in any other standard tags.
+  example: []
+  syntax:
+    content: public const string Comment = "COMMENT"
+    return:
+      type: System.String
+    content.vb: Public Const Comment As String = "COMMENT"
+- uid: Metatogger.Data.TagName.Lyrics
+  commentId: F:Metatogger.Data.TagName.Lyrics
+  id: Lyrics
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Lyrics
+  nameWithType: TagName.Lyrics
+  fullName: Metatogger.Data.TagName.Lyrics
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: The lyrics of the song.
+  example: []
+  syntax:
+    content: public const string Lyrics = "LYRICS"
+    return:
+      type: System.String
+    content.vb: Public Const Lyrics As String = "LYRICS"
+- uid: Metatogger.Data.TagName.CommonTags
+  commentId: F:Metatogger.Data.TagName.CommonTags
+  id: CommonTags
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: CommonTags
+  nameWithType: TagName.CommonTags
+  fullName: Metatogger.Data.TagName.CommonTags
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: 'Gets a read-only collection of common tag names: [Artist, Title, Album, TrackNumber, Date, Genre].'
+  example: []
+  syntax:
+    content: public static readonly ReadOnlyCollection<string> CommonTags
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
+    content.vb: Public Shared ReadOnly CommonTags As ReadOnlyCollection(Of String)
+- uid: Metatogger.Data.TagName.UncommonTags
+  commentId: F:Metatogger.Data.TagName.UncommonTags
+  id: UncommonTags
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: UncommonTags
+  nameWithType: TagName.UncommonTags
+  fullName: Metatogger.Data.TagName.UncommonTags
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: 'Gets a read-only collection of uncommon tag names: [AlbumArtist, Lyricist, Composer, Language, DiscNumber, OriginalAlbum, OriginalArtist, OriginalDate, AlbumSort, ArtistSort, TitleSort, AlbumArtistSort, Label, Comment, Lyrics].'
+  example: []
+  syntax:
+    content: public static readonly ReadOnlyCollection<string> UncommonTags
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
+    content.vb: Public Shared ReadOnly UncommonTags As ReadOnlyCollection(Of String)
+- uid: Metatogger.Data.TagName.AllSupportedTags
+  commentId: F:Metatogger.Data.TagName.AllSupportedTags
+  id: AllSupportedTags
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: AllSupportedTags
+  nameWithType: TagName.AllSupportedTags
+  fullName: Metatogger.Data.TagName.AllSupportedTags
+  type: Field
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: 'Gets a read-only collection of all supported tag names: [.. CommonTags, .. UncommonTags].'
+  example: []
+  syntax:
+    content: public static readonly ReadOnlyCollection<string> AllSupportedTags
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
+    content.vb: Public Shared ReadOnly AllSupportedTags As ReadOnlyCollection(Of String)
+- uid: Metatogger.Data.TagName.GetFriendlyName(System.String)
+  commentId: M:Metatogger.Data.TagName.GetFriendlyName(System.String)
+  id: GetFriendlyName(System.String)
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: GetFriendlyName(string)
+  nameWithType: TagName.GetFriendlyName(string)
+  fullName: Metatogger.Data.TagName.GetFriendlyName(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the friendly display name for a tag, using localized resources if available.
+  example: []
+  syntax:
+    content: public static string GetFriendlyName(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.String
+      description: The friendly display name for the tag.
+    content.vb: Public Shared Function GetFriendlyName(tag As String) As String
+  overload: Metatogger.Data.TagName.GetFriendlyName*
+  nameWithType.vb: TagName.GetFriendlyName(String)
+  fullName.vb: Metatogger.Data.TagName.GetFriendlyName(String)
+  name.vb: GetFriendlyName(String)
+- uid: Metatogger.Data.TagName.GetDescription(System.String)
+  commentId: M:Metatogger.Data.TagName.GetDescription(System.String)
+  id: GetDescription(System.String)
+  parent: Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: GetDescription(string)
+  nameWithType: TagName.GetDescription(string)
+  fullName: Metatogger.Data.TagName.GetDescription(string)
+  type: Method
+  assemblies:
+  - Metatogger
+  namespace: Metatogger.Data
+  summary: Gets the description for a tag, using localized resources if available.
+  example: []
+  syntax:
+    content: public static string? GetDescription(string tag)
+    parameters:
+    - id: tag
+      type: System.String
+      description: The tag name.
+    return:
+      type: System.String
+      description: The description for the tag, or null if not available.
+    content.vb: Public Shared Function GetDescription(tag As String) As String
+  overload: Metatogger.Data.TagName.GetDescription*
+  nameWithType.vb: TagName.GetDescription(String)
+  fullName.vb: Metatogger.Data.TagName.GetDescription(String)
+  name.vb: GetDescription(String)
+references:
+- uid: Metatogger.Data
+  commentId: N:Metatogger.Data
+  isExternal: true
+  href: Metatogger.html
+  name: Metatogger.Data
+  nameWithType: Metatogger.Data
+  fullName: Metatogger.Data
+  spec.csharp:
+  - uid: Metatogger
+    name: Metatogger
+    isExternal: true
+    href: Metatogger.html
+  - name: .
+  - uid: Metatogger.Data
+    name: Data
+    isExternal: true
+    href: Metatogger.Data.html
+  spec.vb:
+  - uid: Metatogger
+    name: Metatogger
+    isExternal: true
+    href: Metatogger.html
+  - name: .
+  - uid: Metatogger.Data
+    name: Data
+    isExternal: true
+    href: Metatogger.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  name: ReadOnlyCollection<string>
+  nameWithType: ReadOnlyCollection<string>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<string>
+  nameWithType.vb: ReadOnlyCollection(Of String)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of String)
+  name.vb: ReadOnlyCollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Metatogger.Data.TagName.GetFriendlyName*
+  commentId: Overload:Metatogger.Data.TagName.GetFriendlyName
+  isExternal: true
+  href: Metatogger.Data.TagName.html#Metatogger_Data_TagName_GetFriendlyName_System_String_
+  name: GetFriendlyName
+  nameWithType: TagName.GetFriendlyName
+  fullName: Metatogger.Data.TagName.GetFriendlyName
+- uid: Metatogger.Data.TagName.GetDescription*
+  commentId: Overload:Metatogger.Data.TagName.GetDescription
+  isExternal: true
+  href: Metatogger.Data.TagName.html#Metatogger_Data_TagName_GetDescription_System_String_
+  name: GetDescription
+  nameWithType: TagName.GetDescription
+  fullName: Metatogger.Data.TagName.GetDescription

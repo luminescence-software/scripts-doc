@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: Metatogger
+  commentId: N:Metatogger
+  id: Metatogger
+  children:
+  - Metatogger.FileProcess
+  langs:
+  - csharp
+  - vb
+  name: Metatogger
+  nameWithType: Metatogger
+  fullName: Metatogger
+  type: Namespace
+  assemblies:
+  - Metatogger
+references:
+- uid: Metatogger.FileProcess
+  commentId: T:Metatogger.FileProcess
+  parent: Metatogger
+  isExternal: true
+  href: Metatogger.FileProcess.html
+  name: FileProcess
+  nameWithType: FileProcess
+  fullName: Metatogger.FileProcess
+- uid: Metatogger
+  commentId: N:Metatogger
+  isExternal: true
+  href: Metatogger.html
+  name: Metatogger
+  nameWithType: Metatogger
+  fullName: Metatogger

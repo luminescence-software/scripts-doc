@@ -1,0 +1,13 @@
+apiRules:
+- include:
+    uidRegex: ^System\.
+- include:
+    uidRegex: ^Metatogger\.FileProcess(\.|$)
+- include:
+    uidRegex: ^Metatogger\.Data\.AudioFile(\.|$)
+- include:
+    uidRegex: ^Metatogger\.Data\.ExtendedMetadataName(\.|$)
+- include:
+    uidRegex: ^Metatogger\.Data\.TagName(\.|$)
+- exclude:
+    uidRegex: .*

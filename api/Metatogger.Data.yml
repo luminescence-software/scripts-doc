@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Metatogger.Data
+  commentId: N:Metatogger.Data
+  id: Metatogger.Data
+  children:
+  - Metatogger.Data.AudioFile
+  - Metatogger.Data.ExtendedMetadataName
+  - Metatogger.Data.TagName
+  langs:
+  - csharp
+  - vb
+  name: Metatogger.Data
+  nameWithType: Metatogger.Data
+  fullName: Metatogger.Data
+  type: Namespace
+  assemblies:
+  - Metatogger
+references:
+- uid: Metatogger.Data.AudioFile
+  commentId: T:Metatogger.Data.AudioFile
+  isExternal: true
+  href: Metatogger.Data.AudioFile.html
+  name: AudioFile
+  nameWithType: AudioFile
+  fullName: Metatogger.Data.AudioFile
+- uid: Metatogger.Data.ExtendedMetadataName
+  commentId: T:Metatogger.Data.ExtendedMetadataName
+  isExternal: true
+  href: Metatogger.Data.ExtendedMetadataName.html
+  name: ExtendedMetadataName
+  nameWithType: ExtendedMetadataName
+  fullName: Metatogger.Data.ExtendedMetadataName
+- uid: Metatogger.Data.TagName
+  commentId: T:Metatogger.Data.TagName
+  isExternal: true
+  href: Metatogger.Data.TagName.html
+  name: TagName
+  nameWithType: TagName
+  fullName: Metatogger.Data.TagName

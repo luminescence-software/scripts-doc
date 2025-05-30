@@ -1,0 +1,23 @@
+### YamlMime:TableOfContent
+items:
+- uid: Metatogger
+  name: Metatogger
+  type: Namespace
+  items:
+  - uid: Metatogger.FileProcess
+    name: FileProcess
+    type: Enum
+- uid: Metatogger.Data
+  name: Metatogger.Data
+  type: Namespace
+  items:
+  - uid: Metatogger.Data.AudioFile
+    name: AudioFile
+    type: Class
+  - uid: Metatogger.Data.ExtendedMetadataName
+    name: ExtendedMetadataName
+    type: Class
+  - uid: Metatogger.Data.TagName
+    name: TagName
+    type: Class
+memberLayout: SamePage
